@@ -1,0 +1,1 @@
+Register Daily progress here
