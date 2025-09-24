@@ -1,0 +1,21 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. COMP-EXAMPLE.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+
+       *> 2-byte COMP
+       01 WS-NUM2  PIC S9(4) USAGE COMP VALUE -1234.
+
+       *> 4-byte COMP
+       01 WS-NUM4  PIC S9(8) USAGE COMP VALUE 12345678.
+
+       *> 8-byte COMP
+       01 WS-NUM8  PIC S9(12) USAGE COMP VALUE -123456789012.
+
+       PROCEDURE DIVISION.
+           DISPLAY "2-byte COMP   : " WS-NUM2.
+           DISPLAY "4-byte COMP   : " WS-NUM4.
+           DISPLAY "8-byte COMP   : " WS-NUM8.
+
+           STOP RUN.
