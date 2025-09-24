@@ -10,4 +10,23 @@ Register Daily progress here
 | Day 6    | COBOL programming - Table processing   |
 | Day 7    | Session revision, COBOL programming -  File Handling   |
 | Day 8    | Session revision, COBOL programming - File Organization    |
+| Day 9    | COBOL programming - File Handling verbs    |
+|     |     |
+|     |     |
+|     |     |
+|     |     |
+|     |     |
+|     |     |
+|     |     |
+|     |     |
+|     |     |
+|     |     |
+|     |     |
+|     |     |
+|     |     |
+|     |     |
+|     |     |
+|     |     |
+|     |     |
+|     |     |
 |     |     |
