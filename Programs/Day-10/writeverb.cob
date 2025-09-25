@@ -1,0 +1,39 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. WriteVerbDemo.
+
+       ENVIRONMENT DIVISION.
+       INPUT-OUTPUT SECTION.
+       FILE-CONTROL.
+           SELECT STUDENT ASSIGN TO "student.txt"
+               ORGANIZATION IS SEQUENTIAL
+               ACCESS MODE IS SEQUENTIAL
+               FILE STATUS IS FS.
+
+       DATA DIVISION.
+       FILE SECTION.
+       FD STUDENT.
+       01 STUDENT-REC.
+          05 STUDENT-ID    PIC 9(5).
+          05 STUDENT-NAME  PIC A(25).
+          05 STUDENT-CLASS PIC X(3).
+
+       WORKING-STORAGE SECTION.
+       01 FS PIC XX.
+
+       PROCEDURE DIVISION.
+       Main-Para.
+
+           OPEN EXTEND STUDENT
+
+           MOVE 1000 TO STUDENT-ID
+           MOVE "Tim" TO STUDENT-NAME
+           MOVE "10" TO STUDENT-CLASS
+           WRITE STUDENT-REC.
+
+           MOVE 1001 TO STUDENT-ID
+           MOVE "Alice" TO STUDENT-NAME
+           MOVE "10A" TO STUDENT-CLASS
+           WRITE STUDENT-REC.
+
+           CLOSE STUDENT
+           STOP RUN.
