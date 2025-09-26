@@ -13,8 +13,8 @@ Form : https://docs.google.com/forms/d/e/1FAIpQLSfawnphlAwzSorZp940R7pVmj68p7avN
 | Day 7    | Session revision, COBOL programming -  File Handling   |
 | Day 8    | Session revision, COBOL programming - File Organization    |
 | Day 9    | COBOL programming - File Handling verbs    |
-|     |     |
-|     |     |
+| Day 10    | Session revision, COBOL programming - Subroutines    |
+| Day 11    | COBOL programming - Internal Sort     |
 |     |     |
 |     |     |
 |     |     |
